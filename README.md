@@ -1,10 +1,24 @@
-# Getting Started with Create React App
+# Devin's Portfolio website [React.js]
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
-## Available Scripts
+## Live Preview: [Open Link][preview]
 
-In the project directory, you can run:
+Coded by - [Devin McMichael]
+
+![](./ReadMeImages/ReadMeBanner.png)
+
+## What we are going to Use
+
+- React
+- React Hooks
+- Styled Components
+- Swiper js
+- React Transition Group
+- Smooth Scrollbar
+- React Icons
+- React Router Dom
+- More...
 
 ### `npm start`
 
