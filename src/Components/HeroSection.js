@@ -157,9 +157,9 @@ export default function HeroSection() {
           </div>
           <div className="hero__info">
             <PText>
-              I am software developer that recently graduated from Bethel School
-              of Technology's Full Stack program. I love to design fun and
-              beautiful applications.
+              I am a software developer that recently graduated from Bethel
+              School of Technology's Full Stack program. I love to design fun
+              and beautiful applications.
             </PText>
             <Button btnText="see my projects" btnLink="/projects" />
           </div>

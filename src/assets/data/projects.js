@@ -12,7 +12,7 @@ const projects = [
   },
   {
     id: uuidv4(),
-    name: '',
+    name: 'First Portfolio',
     desc: 'https://portfoliodm.netlify.app/  First Portfolio website',
     img: firstport,
   },
