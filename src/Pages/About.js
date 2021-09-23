@@ -2,7 +2,6 @@ import React from 'react';
 import styled from 'styled-components';
 import AboutImg from '../assets/images/about-page-img.jpg';
 import AboutInfoItem from '../Components/AboutInfoItem';
-import Button from '../Components/Button';
 import ContactBanner from '../Components/ContactBanner';
 import PText from '../Components/PText';
 
@@ -54,6 +53,18 @@ const AboutPageStyles = styled.div`
     font-size: 3.6rem;
     text-transform: uppercase;
   }
+  margin-top: 2rem;
+  .button {
+    font-size: 2.2rem;
+    background-color: ${(props) =>
+      props.outline ? 'transperant' : 'var(--gray-1)'};
+    padding: 0.7em 2em;
+    border: 2px solid var(--gray-1);
+    border-radius: 8px;
+    display: inline-block;
+    color: ${(props) => (props.outline ? 'var(--gary-1)' : 'black')};
+  }
+
   @media only screen and (max-width: 768px) {
     padding: 10rem 0;
     .top-section {
@@ -68,6 +79,9 @@ const AboutPageStyles = styled.div`
     }
     .about__info__heading {
       font-size: 3rem;
+    }
+    .button {
+      font-size: 1.8rem;
     }
   }
 `;
@@ -102,16 +116,19 @@ export default function About() {
                   and breaking into the world of artifical intelligence.
                   <br />
                   <br />
-                  My vision is to make the world a better place. Now almost
-                  everything is becoming better than ever. It is time for us to
-                  create more good stuff that helps the world to become a better
-                  place.
+                  When I am not coding, I usually spend my time with friends
+                  with going to the beach, a movie, or a hike. Health and
+                  wellbeing are a passion of mine. Weighing over 330lbs I needed
+                  a change. I got myself a personal trainer and started chipping
+                  away at it. I will be very excited when I can update this to
+                  say "lost over 100lbs!"
                 </PText>
               </div>
-              <Button
-                btnText="Download CV"
-                btnLink="https://docs.google.com/document/d/1QMkE5aQw5DFbrRMhQzDeD8yh5bkGBz7t2KI3E1kjvlI/edit?usp=sharing"
-              />
+              <a href="https://docs.google.com/document/d/1QMkE5aQw5DFbrRMhQzDeD8yh5bkGBz7t2KI3E1kjvlI/edit?usp=sharing">
+                <button className="button" type="button">
+                  Download CV
+                </button>
+              </a>
             </div>
             <div className="right">
               <img src={AboutImg} alt="me" />
