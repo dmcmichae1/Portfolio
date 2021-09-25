@@ -144,6 +144,10 @@ export default function About() {
                   'Bethel School of Technology. Full Stack Program, Online',
                 ]}
               />
+              <AboutInfoItem
+                title="Certificate"
+                items={['IBM/ Coursera. Full Stack Cloud Developer, Online']}
+              />
             </div>
             <div className="about__info__item">
               <h1 className="about__info__heading">My Skills</h1>
