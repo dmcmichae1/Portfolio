@@ -1,7 +1,6 @@
 import React from 'react';
 import styled from 'styled-components';
 import ProfileImg from '../assets/images/profile.jpg';
-import Button from './Button';
 import SocialMediaArrow from '../assets/images/social-media-arrow.svg';
 import ScrollDownArrow from '../assets/images/scroll-down-arrow.svg';
 import PText from './PText';
@@ -161,7 +160,6 @@ export default function HeroSection() {
               School of Technology's Full Stack program. I love to design fun
               and beautiful applications.
             </PText>
-            <Button btnText="see my projects" btnLink="/projects" />
           </div>
           <div className="hero__social">
             <div className="hero__social__indicator">

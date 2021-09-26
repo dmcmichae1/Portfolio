@@ -9,6 +9,7 @@ const projects = [
     desc:
       "A GitHub collaboration application, that allows trainers to read, post, edit, and delete 'articles.' Articles can be the trainers list of services they offer or other health related materials. See 'personal links' at bottom of page for link.",
     img: fitconnect,
+    deployed: 'https://fitconnect1.herokuapp.com/',
   },
   {
     id: uuidv4(),
@@ -16,10 +17,8 @@ const projects = [
     desc:
       "First Portfolio website. See 'personal links' at bottom of page for link.",
     img: firstport,
+    deployed: 'https://portfoliodm.netlify.app/',
   },
 ];
 
 export default projects;
-
-// https://fitconnect1.herokuapp.com/
-// https://portfoliodm.netlify.app/
