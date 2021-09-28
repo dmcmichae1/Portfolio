@@ -141,17 +141,19 @@ export default function About() {
               <AboutInfoItem
                 title="Certificate"
                 items={[
-                  'Bethel School of Technology. Full Stack Program, Online',
+                  'Bethel School of Technology. Full Stack Program, Online  |2020-2021',
                 ]}
               />
               <AboutInfoItem
                 title="Certificate"
-                items={['IBM/ Coursera. Full Stack Cloud Developer, Online']}
+                items={[
+                  'IBM/ Coursera. Full Stack Cloud Developer, Online  |2021-2021',
+                ]}
               />
               <AboutInfoItem
-                title="College Classes"
+                title="College Class"
                 items={[
-                  'Shasta Community College. Statistics and Linear Algebra, Redding, CA',
+                  'Shasta Community College. Statistics and Linear Algebra, Redding, CA  |2018-2019',
                 ]}
               />
             </div>
