@@ -148,6 +148,12 @@ export default function About() {
                 title="Certificate"
                 items={['IBM/ Coursera. Full Stack Cloud Developer, Online']}
               />
+              <AboutInfoItem
+                title="College Classes"
+                items={[
+                  'Shasta Community College. Statistics and Linear Algebra, Redding, CA',
+                ]}
+              />
             </div>
             <div className="about__info__item">
               <h1 className="about__info__heading">My Skills</h1>
