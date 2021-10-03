@@ -40,11 +40,14 @@ export default function ProjectItem({
   img = fitconnect,
   title = 'Project Name',
   desc = 'Lorem Ipsum is simply dummy text of the printing and typesetting industry.',
+  deployed = '',
 }) {
   return (
     <ProjectItemStyles>
       <Link to="/projects" className="projectItem__img">
-        <img src={img} alt="project img" />
+        <a href={deployed} onClick="window.open">
+          <img src={img} alt="project img" />
+        </a>
       </Link>
       <div className="projectItem__info">
         <Link to="#">
