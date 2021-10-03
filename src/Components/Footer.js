@@ -128,14 +128,6 @@ export default function Footer() {
                 path:
                   'https://docs.google.com/document/d/1QMkE5aQw5DFbrRMhQzDeD8yh5bkGBz7t2KI3E1kjvlI/edit?usp=sharing',
               },
-              {
-                title: 'Project: FITconnect',
-                path: 'https://fitconnect1.herokuapp.com/',
-              },
-              {
-                title: 'Project: First Portfolio',
-                path: 'https://portfoliodm.netlify.app/',
-              },
             ]}
           />
         </div>
