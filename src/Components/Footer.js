@@ -59,8 +59,7 @@ export default function Footer() {
         <div className="footer__col1">
           <h1 className="footer__col1__title">Devin McMichael</h1>
           <PText>
-            I am a software developer that recently graduated from Bethel School
-            of Technology's Full Stack program. I love to design fun and
+            I am a full stack software developer. I love to design fun and
             beautiful applications.
           </PText>
         </div>
