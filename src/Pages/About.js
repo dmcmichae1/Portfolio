@@ -118,10 +118,7 @@ export default function About() {
                   <br />
                   When I am not coding, I usually spend my time with friends
                   either going to the beach, a movie, or a hike. Health and
-                  wellbeing are a passion of mine. Starting my health journey I
-                  started over 330lbs. So I got myself a personal trainer and
-                  started chipping away at it. Currently I am down 70lbs. I will
-                  be very excited when I hit my goals.
+                  wellbeing are a passion of mine.
                 </PText>
               </div>
               <a href="https://docs.google.com/document/d/1QMkE5aQw5DFbrRMhQzDeD8yh5bkGBz7t2KI3E1kjvlI/edit?usp=sharing">
